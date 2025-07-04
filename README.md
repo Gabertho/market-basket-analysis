@@ -30,6 +30,71 @@ To extract frequent product combinations using association rules (Apriori) and c
 
 ---
 
+## 🌍 Preliminary Insights
+
+### 🗺️ Transactions by Country
+
+![Transactions by Country](images/paísestransações.png)
+
+> The vast majority of transactions come from the **United Kingdom**, followed by Germany and France.
+
+### 📆 Seasonality
+
+![Seasonality](images/sazonalidade.png)
+
+> Strong end-of-year purchasing trend, with December showing peak activity.
+
+### 🛍️ Top-Selling Products
+
+![Top Products](images/produtosmaisvendidos.png)
+
+> Best-selling products are mostly decorative items and home accessories.
+
+---
+
+## 🔍 Case Study: PINK REGENCY TEACUP AND SAUCER
+
+To ensure a fair comparison, both Apriori and Decision Tree were evaluated on a **restricted scenario**:  
+Transactions from the **United Kingdom**, focused on the product:
+
+> **PINK REGENCY TEACUP AND SAUCER**
+
+---
+
+## 📊 Example Rules Extracted
+
+### 📌 Apriori Rule
+
+- `REGENCY TEA PLATE ROSES` → `PINK REGENCY TEACUP AND SAUCER`  
+  **Confidence:** 0.91 — **Support:** 2.8% — **Lift:** 31.7
+
+### 🌳 Decision Tree Leaf Rule (Simplified)
+
+- Items: `GREEN`, `ROSES`, `TEA PLATE PINK`, etc.  
+  **Confidence:** 0.85 — **Support:** 0.27% — **Lift:** 35.9
+
+### 🧠 Decision Tree Structure
+
+![Decision Tree](images/decisiontree.png)
+
+---
+
+## 📌 Lift by Country
+
+### 🇬🇧 United Kingdom
+
+![Lift UK](images/liftuk.png)
+
+### 🇩🇪 Germany
+
+![Lift Germany](images/liftgermany.png)
+
+### 🇮🇪 Ireland
+
+![Lift Ireland](images/lifteire.png)
+
+---
+
 ## 🔍 Item Target – Case Study
 
 To ensure a fair comparison, both Apriori and Decision Tree were evaluated on a **restricted scenario**:  
